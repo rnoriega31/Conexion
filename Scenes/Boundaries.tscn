@@ -4,34 +4,28 @@
 
 [node name="Boundaries" type="Node"]
 
-[node name="Wall" parent="." instance=ExtResource( 1 )]
-
-transform/pos = Vector2( 120.78, 307.174 )
-transform/scale = Vector2( 0.525522, 7.45087 )
-script/script = null
-
 [node name="Wall1" parent="." instance=ExtResource( 1 )]
 
-transform/pos = Vector2( 1484.35, 307.174 )
-transform/scale = Vector2( 0.525522, 7.38929 )
+transform/pos = Vector2( 115, 302 )
+transform/scale = Vector2( 0.1, 7 )
 script/script = null
 
-[node name="Wall 2" parent="." instance=ExtResource( 1 )]
+[node name="Wall2" parent="." instance=ExtResource( 1 )]
 
-transform/pos = Vector2( 802.565, 72.5614 )
-transform/scale = Vector2( 20.8461, 0.558137 )
+transform/pos = Vector2( 1485, 302 )
+transform/scale = Vector2( 0.1, 7 )
 script/script = null
 
 [node name="Wall3" parent="." instance=ExtResource( 1 )]
 
-transform/pos = Vector2( 439.997, 529.712 )
-transform/scale = Vector2( 9.39267, 0.558137 )
+transform/pos = Vector2( 800, 80 )
+transform/scale = Vector2( 21.5, 0.1 )
 script/script = null
 
 [node name="Wall4" parent="." instance=ExtResource( 1 )]
 
-transform/pos = Vector2( 1169.07, 531.683 )
-transform/scale = Vector2( 9.39267, 0.558137 )
+transform/pos = Vector2( 800, 530 )
+transform/scale = Vector2( 21.5, 0.1 )
 script/script = null
 
 

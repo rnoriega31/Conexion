@@ -1,21 +1,18 @@
-[gd_scene load_steps=5 format=1]
+[gd_scene load_steps=4 format=1]
 
 [ext_resource path="res://Scenes/LeftKnob.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/RightKnob.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/Conexion.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Scenes/Boundaries.tscn" type="PackedScene" id=4]
 
 [node name="Game" type="Node"]
 
 [node name="LeftKnob" parent="." instance=ExtResource( 1 )]
 
 transform/pos = Vector2( 80, 810 )
-transform/scale = Vector2( 1, 1 )
 
 [node name="RightKnob" parent="." instance=ExtResource( 2 )]
 
 transform/pos = Vector2( 1520, 810 )
-transform/scale = Vector2( 1, 1 )
 
 [node name="Conexion" parent="." instance=ExtResource( 3 )]
 
@@ -28,7 +25,5 @@ transform/pos = Vector2( 115, 70 )
 [node name="Position2D 2" type="Position2D" parent="."]
 
 transform/pos = Vector2( 1485, 480 )
-
-[node name="Boundaries" parent="." instance=ExtResource( 4 )]
 
 
