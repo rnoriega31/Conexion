@@ -5,6 +5,8 @@
 
 [node name="Level_2" instance=ExtResource( 1 )]
 
+time_limit = 10
+
 [node name="Position2D" parent="."]
 
 transform/pos = Vector2( 269.666, 493.262 )

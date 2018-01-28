@@ -1,10 +1,11 @@
-[gd_scene load_steps=4 format=1]
+[gd_scene load_steps=3 format=1]
 
 [ext_resource path="res://Scenes/BaseLevel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Wall.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Scenes/Boundaries.tscn" type="PackedScene" id=3]
 
 [node name="Level_5" instance=ExtResource( 1 )]
+
+time_limit = 20
 
 [node name="Position2D" parent="."]
 
@@ -12,7 +13,7 @@ transform/pos = Vector2( 416.845, 134.192 )
 
 [node name="Goal" parent="."]
 
-transform/pos = Vector2( 1244.22, 432.61 )
+transform/pos = Vector2( 1161.64, 427.354 )
 transform/scale = Vector2( 0.5, 0.5 )
 
 [node name="Sprite" parent="."]
@@ -36,12 +37,12 @@ transform/scale = Vector2( 0.2, 3.08627 )
 
 [node name="Wall22" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 1271.24, 388.509 )
-transform/scale = Vector2( 0.2, 2.38519 )
+transform/pos = Vector2( 1195.63, 395.516 )
+transform/scale = Vector2( 0.2, 2.17917 )
 
 [node name="Wall23" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 1217.26, 409.767 )
+transform/pos = Vector2( 1128.26, 409.767 )
 transform/scale = Vector2( 0.2, 1.72677 )
 
 [node name="Wall10" parent="." instance=ExtResource( 2 )]
@@ -73,9 +74,15 @@ transform/scale = Vector2( 0.2, 4.22165 )
 
 [node name="Wall24" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 1245.07, 458.726 )
+transform/pos = Vector2( 1156.07, 458.726 )
 transform/rot = 90.0
 transform/scale = Vector2( 0.2, 0.669763 )
+
+[node name="Wall25" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 1161.96, 458.876 )
+transform/rot = 90.0
+transform/scale = Vector2( 0.2, 0.853199 )
 
 [node name="Wall4" parent="." instance=ExtResource( 2 )]
 
@@ -85,15 +92,15 @@ transform/scale = Vector2( 0.2, 4.2 )
 
 [node name="Wall16" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 1044.03, 228.917 )
+transform/pos = Vector2( 999.931, 228.917 )
 transform/rot = 90.0
-transform/scale = Vector2( 0.2, 4.48376 )
+transform/scale = Vector2( 0.2, 3.10565 )
 
 [node name="Wall14" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 1012.5, 296.967 )
+transform/pos = Vector2( 967.925, 296.967 )
 transform/rot = 90.0
-transform/scale = Vector2( 0.2, 4.59851 )
+transform/scale = Vector2( 0.2, 3.20554 )
 
 [node name="Wall8" parent="." instance=ExtResource( 2 )]
 
@@ -109,13 +116,13 @@ transform/scale = Vector2( 0.2, 1.2083 )
 
 [node name="Wall20" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 1228.05, 271.894 )
+transform/pos = Vector2( 1145.75, 278.598 )
 transform/rot = 45.0
-transform/scale = Vector2( 0.2, 1.97745 )
+transform/scale = Vector2( 0.2, 2.27374 )
 
 [node name="Wall21" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 1187.12, 326.576 )
+transform/pos = Vector2( 1098.12, 326.576 )
 transform/rot = 45.0
 transform/scale = Vector2( 0.2, 1.41664 )
 
@@ -135,7 +142,5 @@ transform/scale = Vector2( 0.2, 3.42549 )
 
 transform/pos = Vector2( 475, 167.061 )
 transform/scale = Vector2( 0.2, 2.60292 )
-
-[node name="Boundaries" parent="." instance=ExtResource( 3 )]
 
 
