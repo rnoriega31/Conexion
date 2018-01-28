@@ -1,10 +1,11 @@
-[gd_scene load_steps=2 format=1]
+[gd_scene load_steps=3 format=1]
 
 [ext_resource path="res://Scenes/BaseLevel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Resources/operational amplifier.fnt" type="BitmapFont" id=2]
 
 [node name="Endgame" instance=ExtResource( 1 )]
 
-editor/display_folded = true
+time_limit = 60
 
 [node name="Position2D" parent="."]
 
@@ -13,5 +14,24 @@ transform/pos = Vector2( 800, 450 )
 [node name="Goal" parent="."]
 
 transform/pos = Vector2( -3000, 3000 )
+
+[node name="Label" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 378.0
+margin/top = 519.0
+margin/right = 1357.0
+margin/bottom = 939.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.972656, 0.972656, 0.953659, 1 )
+text = "Sergio Almendro
+Ricardo Noriega
+David Fernandez"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
 
 
