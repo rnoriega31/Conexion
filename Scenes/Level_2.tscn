@@ -5,14 +5,66 @@
 
 [node name="Level_2" instance=ExtResource( 1 )]
 
+[node name="Position2D" parent="."]
+
+transform/pos = Vector2( 264.174, 495.738 )
+
 [node name="Wall" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 190, 495 )
-transform/scale = Vector2( 0.2, 1 )
+transform/pos = Vector2( 190, 496.466 )
+transform/scale = Vector2( 0.2, 1.0458 )
 
-[node name="Wall1" parent="." instance=ExtResource( 2 )]
+[node name="Wall9" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 190, 495 )
-transform/scale = Vector2( 0.2, 1 )
+transform/pos = Vector2( 1410, 496.479 )
+transform/scale = Vector2( 0.2, 1.04622 )
+
+[node name="Wall2" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 295.901, 361.099 )
+transform/rot = 135.0
+transform/scale = Vector2( 0.2, 4.77207 )
+
+[node name="Wall6" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 1304.28, 361.284 )
+transform/rot = 45.0
+transform/scale = Vector2( 0.2, 4.76385 )
+
+[node name="Wall4" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 800, 255 )
+transform/rot = 90.0
+transform/scale = Vector2( 0.2, 12.5088 )
+
+[node name="Wall5" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 800, 395 )
+transform/rot = 90.0
+transform/scale = Vector2( 0.2, 10.7341 )
+
+[node name="Wall10" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 264.278, 523.559 )
+transform/rot = 90.0
+transform/scale = Vector2( 0.2, 2.1198 )
+
+[node name="Wall11" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 1336, 523.559 )
+transform/rot = 90.0
+transform/scale = Vector2( 0.2, 2.1198 )
+
+[node name="Wall3" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 394.339, 458.943 )
+transform/rot = 135.0
+transform/scale = Vector2( 0.2, 2.93524 )
+
+[node name="Wall7" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 1205.68, 458.943 )
+transform/rot = 45.0
+transform/scale = Vector2( 0.2, 2.93524 )
 
 

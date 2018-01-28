@@ -50,7 +50,7 @@ transform/scale = Vector2( 0.2, 4.76385 )
 
 [node name="Wall2" parent="." instance=ExtResource( 1 )]
 
-transform/pos = Vector2( 799.897, 255 )
+transform/pos = Vector2( 800, 255 )
 transform/rot = 90.0
 transform/scale = Vector2( 0.2, 12.5088 )
 
