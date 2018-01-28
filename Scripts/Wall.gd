@@ -8,4 +8,5 @@ func _ready():
 
 func _on_area_enter(area):
 	if area.get_name() == "Player":
+		ASGenerator.create_sound_stream(load("res://Resources/PlayerDeath.ogg"))
 		get_tree().change_scene("Scenes/Game.tscn")
