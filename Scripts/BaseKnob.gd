@@ -16,5 +16,8 @@ func _process(delta):
 		set_rotd(get_rotd() - degrees_per_frame)
 
 func _lock_on_pos():
-	var target_pos = get_node("../Position2D")
-	print(target_pos.get_global_pos())
+	var target_pos = get_node("../Position2D").get_global_pos()
+	print(target_pos)
+	
+	print(rad2deg(atan2(get_global_pos().x - target_pos.x, get_global_pos().y - target_pos.y)))
+	set_rotd(rad2deg(atan2(get_global_pos().x - target_pos.x, get_global_pos().y - target_pos.y)))
