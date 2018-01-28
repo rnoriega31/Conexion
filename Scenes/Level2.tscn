@@ -11,7 +11,7 @@ transform/scale = Vector2( 0.2, 1 )
 
 [node name="Wall5" parent="." instance=ExtResource( 1 )]
 
-transform/pos = Vector2( 330, 525.581 )
+transform/pos = Vector2( 330, 525 )
 transform/scale = Vector2( 0.2, 0.153206 )
 
 [node name="Wall8" parent="." instance=ExtResource( 1 )]
