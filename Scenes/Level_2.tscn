@@ -7,7 +7,7 @@
 
 [node name="Position2D" parent="."]
 
-transform/pos = Vector2( 269.666, 479.262 )
+transform/pos = Vector2( 269.666, 493.262 )
 
 [node name="Goal" parent="."]
 
