@@ -10,24 +10,63 @@
 [node name="Wall" parent="." instance=ExtResource( 2 )]
 
 transform/pos = Vector2( 190, 495 )
-transform/scale = Vector2( 0.3, 1 )
+transform/scale = Vector2( 0.2, 1 )
+
+[node name="Wall5" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 330, 523.839 )
+transform/scale = Vector2( 0.2, 0.0987679 )
+
+[node name="Wall8" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 1270, 523.839 )
+transform/scale = Vector2( 0.2, 0.0987679 )
+
+[node name="Wall4" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 1410, 495 )
+transform/scale = Vector2( 0.2, 1 )
 
 [node name="Wall1" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 335.252, 322.737 )
+transform/pos = Vector2( 335, 322 )
 transform/rot = 135.0
-transform/scale = Vector2( 0.3, 6.5 )
+transform/scale = Vector2( 0.2, 6.5 )
+
+[node name="Wall6" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 434.021, 419.26 )
+transform/rot = 135.0
+transform/scale = Vector2( 0.2, 4.68897 )
+
+[node name="Wall9" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 1166, 419.26 )
+transform/rot = 45.0
+transform/scale = Vector2( 0.2, 4.68897 )
 
 [node name="Wall3" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 335.252, 322.737 )
-transform/rot = 135.0
-transform/scale = Vector2( 0.3, 6.5 )
+transform/pos = Vector2( 1265, 322 )
+transform/rot = 45.0
+transform/scale = Vector2( 0.2, 6.5 )
 
 [node name="Wall2" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 651.654, 178.699 )
+transform/pos = Vector2( 800, 175 )
 transform/rot = 90.0
-transform/scale = Vector2( 0.3, 5.51083 )
+transform/scale = Vector2( 0.2, 10.1 )
+
+[node name="Wall7" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 800.59, 315 )
+transform/rot = 90.0
+transform/scale = Vector2( 0.2, 8.2596 )
+
+[node name="WallWIDTH" parent="." instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 339.189, 416.679 )
+transform/rot = 45.0
+transform/scale = Vector2( 0.2, 1.98052 )
 
 
