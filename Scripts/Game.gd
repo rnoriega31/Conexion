@@ -6,6 +6,7 @@ var cur_level = 0
 signal reset
 
 func _ready():
+	_add_same_level()
 	add_child(pos_ref)
 
 func _load_next_level():
@@ -15,6 +16,11 @@ func _load_next_level():
 func _add_next_level():
 	cur_level += 1
 	
+	if cur_level < levels_array.size():
+		print("adding level " + levels_array[cur_level])
+		InstanceHelper.instance_scene(self, levels_array[cur_level])
+
+func _add_same_level():
 	if cur_level < levels_array.size():
 		print("adding level " + levels_array[cur_level])
 		InstanceHelper.instance_scene(self, levels_array[cur_level])

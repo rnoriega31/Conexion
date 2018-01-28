@@ -1,10 +1,9 @@
-[gd_scene load_steps=6 format=1]
+[gd_scene load_steps=5 format=1]
 
 [ext_resource path="res://Scripts/Game.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/LeftKnob.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/RightKnob.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/Conexion.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Scenes/Level_1.tscn" type="PackedScene" id=5]
 
 [node name="Game" type="Node"]
 
@@ -21,7 +20,5 @@ transform/pos = Vector2( 1520, 810 )
 [node name="Conexion" parent="." instance=ExtResource( 4 )]
 
 transform/pos = Vector2( 620.701, 654.199 )
-
-[node name="Level_1" parent="." instance=ExtResource( 5 )]
 
 
