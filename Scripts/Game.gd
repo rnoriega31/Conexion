@@ -1,7 +1,7 @@
 extends Node
 
 var pos_ref
-var levels_array  = ["Level_1.tscn", "Level_2.tscn", "Level_3.tscn", "Level_4.tscn", "Level_5.tscn", "EndGame.tscn"]
+var levels_array  = ["Level_1.tscn", "Level_2.tscn", "Level_3.tscn", "Level_4.tscn", "Level_6.tscn", "Level_5.tscn", "EndGame.tscn"]
 signal reset
 
 func _ready():

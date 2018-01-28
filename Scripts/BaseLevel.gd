@@ -26,5 +26,5 @@ func _lock_on_pos():
 
 func _timeout():
 	print("ran out of time after " + str(time_limit) + " seconds")
-	#get_tree().change_scene("Scenes/Game.tscn")
+	get_tree().change_scene("Scenes/Game.tscn")
 	

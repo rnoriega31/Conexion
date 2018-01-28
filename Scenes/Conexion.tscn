@@ -9,8 +9,8 @@ radius = 8.53782
 
 [sub_resource type="ColorRamp" id=2]
 
-offsets = FloatArray( 0, 0.625731, 0.836257, 0.923977, 1 )
-colors = ColorArray( 1, 1, 1, 1, 0.529615, 0.0659332, 0.582031, 1, 0.96875, 0.726562, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1 )
+offsets = FloatArray( 0, 0.602339, 0.836257, 0.923977, 1 )
+colors = ColorArray( 1, 1, 1, 1, 1, 0, 0.351562, 1, 0.96875, 0.726562, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1 )
 
 [node name="Conexion" type="Node2D"]
 
