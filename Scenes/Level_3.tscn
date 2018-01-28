@@ -7,7 +7,11 @@
 
 [node name="Position2D" parent="."]
 
-transform/pos = Vector2( 414.672, 124.167 )
+transform/pos = Vector2( 414.672, 137.897 )
+
+[node name="Goal" parent="."]
+
+transform/pos = Vector2( 1169.79, 140.046 )
 
 [node name="Wall" parent="." instance=ExtResource( 2 )]
 

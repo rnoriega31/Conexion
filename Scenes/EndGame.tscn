@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://Scenes/BaseLevel.tscn" type="PackedScene" id=1]
+
+[node name="Endgame" instance=ExtResource( 1 )]
+
+editor/display_folded = true
+
+[node name="Position2D" parent="."]
+
+transform/pos = Vector2( 800, 450 )
+
+[node name="Goal" parent="."]
+
+transform/pos = Vector2( -3000, 3000 )
+
+

@@ -1,6 +1,35 @@
-[gd_scene load_steps=2 format=1]
+[gd_scene load_steps=5 format=1]
 
 [ext_resource path="res://Scripts/BaseLevel.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Goal.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Resources/ScreenFade.png" type="Texture" id=3]
+
+[sub_resource type="Animation" id=1]
+
+resource/name = "FadeIn"
+length = 1.0
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:visibility/visible")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0 ),
+"transitions": FloatArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:visibility/opacity")
+tracks/1/interp = 1
+tracks/1/imported = false
+tracks/1/keys = {
+"times": FloatArray( 0, 0.7, 1 ),
+"transitions": FloatArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 1.0, 0.8, 0.0 ]
+}
 
 [node name="BaseLevel" type="Node"]
 
@@ -9,5 +38,24 @@ script/script = ExtResource( 1 )
 [node name="Position2D" type="Position2D" parent="."]
 
 transform/pos = Vector2( 722.197, 252.632 )
+
+[node name="Goal" parent="." instance=ExtResource( 2 )]
+
+[node name="Sprite" type="Sprite" parent="."]
+
+visibility/visible = false
+transform/pos = Vector2( 796.338, 447.597 )
+texture = ExtResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite"]
+
+playback/process_mode = 1
+playback/default_blend_time = 0.0
+root/root = NodePath("..")
+anims/FadeIn = SubResource( 1 )
+playback/active = true
+playback/speed = 1.0
+blend_times = [  ]
+autoplay = "FadeIn"
 
 

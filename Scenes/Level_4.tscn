@@ -9,6 +9,10 @@
 
 transform/pos = Vector2( 449.368, 297.838 )
 
+[node name="Goal" parent="."]
+
+transform/pos = Vector2( 1095.65, 373.455 )
+
 [node name="Wall" parent="." instance=ExtResource( 2 )]
 
 transform/pos = Vector2( 490, 225 )

@@ -10,3 +10,6 @@ func instance_scene(parent, scene_name):
 
 func get_conexion():
 	return get_node("/root/Game/Conexion")
+
+func get_game():
+	return get_node("/root/Game")

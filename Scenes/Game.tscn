@@ -1,28 +1,10 @@
-[gd_scene load_steps=8 format=1]
+[gd_scene load_steps=6 format=1]
 
 [ext_resource path="res://Scripts/Game.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/LeftKnob.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scenes/RightKnob.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/Conexion.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Resources/ScreenFade.png" type="Texture" id=5]
-[ext_resource path="res://Scenes/Level_1.tscn" type="PackedScene" id=6]
-
-[sub_resource type="Animation" id=1]
-
-resource/name = "FadeIn"
-length = 1.0
-loop = false
-step = 0.1
-tracks/0/type = "value"
-tracks/0/path = NodePath(".:visibility/opacity")
-tracks/0/interp = 1
-tracks/0/imported = false
-tracks/0/keys = {
-"times": FloatArray( 0.4, 0.7, 0.9 ),
-"transitions": FloatArray( 1, 1, 1 ),
-"update": 0,
-"values": [ 1.0, 0.8, 0.0 ]
-}
+[ext_resource path="res://Scenes/Level_1.tscn" type="PackedScene" id=5]
 
 [node name="Game" type="Node"]
 
@@ -40,23 +22,6 @@ transform/pos = Vector2( 1520, 810 )
 
 transform/pos = Vector2( 620.701, 654.199 )
 
-[node name="Sprite" type="Sprite" parent="."]
-
-visibility/opacity = 0.0
-transform/pos = Vector2( 799.687, 452.601 )
-texture = ExtResource( 5 )
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite"]
-
-playback/process_mode = 1
-playback/default_blend_time = 0.0
-root/root = NodePath("..")
-anims/FadeIn = SubResource( 1 )
-playback/active = true
-playback/speed = 1.0
-blend_times = [  ]
-autoplay = "FadeIn"
-
-[node name="Level_1" parent="." instance=ExtResource( 6 )]
+[node name="Level_1" parent="." instance=ExtResource( 5 )]
 
 
