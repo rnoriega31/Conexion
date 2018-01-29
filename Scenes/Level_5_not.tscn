@@ -7,6 +7,7 @@
 [node name="Level5_Test" type="Node"]
 
 script/script = ExtResource( 1 )
+time_limit = 1
 
 [node name="Position2D" type="Position2D" parent="."]
 

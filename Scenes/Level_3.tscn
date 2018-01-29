@@ -5,7 +5,7 @@
 
 [node name="Level_3" instance=ExtResource( 1 )]
 
-time_limit = 15
+time_limit = 12
 
 [node name="Position2D" parent="."]
 
